@@ -61,7 +61,7 @@ body {
 
 .main {
   width: 100%;
-  height: 1100px;
+  height: 800px;
   background-color: #ffffff;
   padding-top: 100px;
 }
@@ -101,7 +101,7 @@ body {
 
 }
 
-.button_web {
+.button_product {
   /*float: left;*/
   margin-top: -100px;
   background-image: url(../images/circle_element.png);
@@ -131,4 +131,40 @@ body {
 
 .right {
   float: right;
+  clear: both;
+}
+
+/* Footer */
+
+.footer {
+  height: 420px;
+}
+
+.contacts {
+  color: white;
+  padding-top: 20px
+}
+
+.input_text {
+  width: 170px;
+  background-color: #222222;
+  border: 1px solid #222222;
+  border-radius: 0.8em;
+  height: 30px;
+}
+
+.big {
+  width: 270px;
+  height: 120px;
+}
+
+.submit_contacts {
+  background-color: #f7713e;
+  border: 1px solid #f7713e;
+  border-radius: 1.5em;
+  margin-left: 200px;
+  font-size: 16px;
+  color: white;
+  height: 40px;
+  width: 80px;
 }
